@@ -14,6 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Prototype
   main.cpp
+
+  prototype.h
+  prototypefactory.h
 )
 target_link_libraries(Prototype Qt${QT_VERSION_MAJOR}::Core)
 
